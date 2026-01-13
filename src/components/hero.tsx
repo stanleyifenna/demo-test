@@ -58,7 +58,7 @@ export default function Hero() {
         </div>
 
         <div className="relative z-10">
-          <h1 className="text-5xl text-white md:text-6xl font-bold mb-6 leading-tight text-balance">
+          <h1 className="text-5xl text-white md:text-6xl font-bold mb-6 ">
             Dozens of apps.
             <br />
             One subscription.
@@ -68,13 +68,12 @@ export default function Hero() {
         
 
      
-          <div className="flex justify-center gap-4 md:gap-6.75 mb-6">
+          <div className="flex justify-center gap-3 md:gap-5 mt-3 not-first:mb-6">
 
             <button
-              className="w-10 h-10 rounded-lg border hover:opacity-80 transition flex items-center justify-center"
-              style={{ backgroundColor: "#2d2d44", borderColor: "#404050" }}
-            >
-              <span className="text-lg">f</span>
+              className="px-3 md:px-8 h-10 rounded-lg bg-white hover:opacity-80 transition flex items-center justify-center"
+                          >
+              <span className="text-sm md:text-base text-[#26262b] font-normal">Try free for 7 days</span>
             </button>
 
             <div className="flex justify-center gap-1 mb-6">
