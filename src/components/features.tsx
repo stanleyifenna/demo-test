@@ -4,10 +4,7 @@ import Image from "next/image";
 
 export default function Features() {
   return (
-    <section
-      className="py-20 px-4 bg-[#2b2d32] "
-      style={{ borderColor: "#404050", borderTopWidth: "1px" }}
-    >
+    <section className="py-20 px-4 bg-[#2b2d32] ">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-3 md:mb-16 gap-4">
           <h2 className="text-2xl md:text-4xl font-semibold text-white ">
