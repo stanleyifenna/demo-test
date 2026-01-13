@@ -22,5 +22,22 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Avenir Next', sans-serif;
 }
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('/fonts/AvenirNext-Regular.woff2') format('woff2'),
+       url('/fonts/AvenirNext-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('/fonts/AvenirNext-Bold.woff2') format('woff2'),
+       url('/fonts/AvenirNext-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+

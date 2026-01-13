@@ -5,10 +5,10 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="bg-[#2b2d32] border-t border-b border-[#E5E5E5]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 md:pt-[60x] pt-16 pb-[40px]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 md:pt-[60x] pt-16 pb-10">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-12 mb-12">
           <div className="md:col-span-2">
-            <div className="flex items-center gap-2 mb-4 md:mb-[78px]">
+            <div className="flex items-center gap-2 mb-4 md:mb-19.5">
               <div className="flex items-center justify-center">
                 <Image
                   src="/footer-logo.svg"
@@ -38,11 +38,11 @@ export default function Footer() {
                 <input
                   type="email"
                   placeholder="Enter your email"
-                  className="w-full bg-[#404547]  text-[#9d9ca2] px-4 h-[50px] py-2 rounded-l-[6px] border border-[#404547] focus:outline-none focus:ring-2 focus:ring-primary"
+                  className="w-full bg-[#404547]  text-[#9d9ca2] px-4 h-12.5 py-2 rounded-l-md border border-[#404547] focus:outline-none focus:ring-2 focus:ring-primary"
                 />
                 <button
                   type="submit"
-                  className="bg-white h-[50px] px-6 py-2 rounded-r-[6px] hover:opacity-90 transition"
+                  className="bg-white h-12.5 px-6 py-2 rounded-r-md hover:opacity-90 transition"
                 >
                   <Image
                     src="/footer-arrow-left.svg"
@@ -186,10 +186,10 @@ export default function Footer() {
 
         <div className="flex  items-center justify-between my-2 md:my-8">
             <div className="flex text-[11px] font-bold text-white justify-center md:justify-start  gap-0">
-                <button className="bg-[#969799] p-1 h-[26px] text-center ">DMCA</button>
-                <button className="bg-[#404547] p-1 h-[26px] text-center ">PROTECTED</button>
+                <button className="bg-[#969799] p-1 h-6.5 text-center ">DMCA</button>
+                <button className="bg-[#404547] p-1 h-6.5 text-center ">PROTECTED</button>
             </div>
-            <div className="flex gap-[10px]">
+            <div className="flex gap-2.5">
                 <Image
                   src="/flag.svg"
                   alt="Separator"
