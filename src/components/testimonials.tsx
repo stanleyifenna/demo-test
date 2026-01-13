@@ -116,7 +116,7 @@ export default function Testimonials() {
 
       <section className="px-4 bg-white  h-auto md:h-64 flex items-center justify-center ">
         <div className="max-w-6xl mx-auto">
-          <div className="flex md:hidden gap-3 md:gap-6.25 justify-center items-center ">
+          <div className="flex md:hidden gap-3 mt-3 md:gap-6.25 justify-center items-center ">
             {testimonials.map((_, idx) => (
               <button
                 key={idx}

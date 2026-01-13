@@ -23,7 +23,7 @@ export default function Header() {
             </div>
           </div>
 
-          <div className="flex items-center gap-4">
+          <div className="hidden md:flex items-center gap-4">
             <Link
               href="#"
               className="text-sm text-white font-medium hover:text-foreground  transition"
@@ -74,7 +74,7 @@ export default function Header() {
             </button>
 
             {/* Mobile Menu Button */}
-            <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
+            <button className="md:hidden flex text-white" onClick={() => setIsOpen(!isOpen)}>
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
           </div>
